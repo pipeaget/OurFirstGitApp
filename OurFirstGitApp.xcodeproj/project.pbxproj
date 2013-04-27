@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600EB312172C831F00A57904 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 600EB311172C831F00A57904 /* README.md */; };
 		6067ED2C172C7CA10049E84C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6067ED2B172C7CA10049E84C /* UIKit.framework */; };
 		6067ED2E172C7CA10049E84C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6067ED2D172C7CA10049E84C /* Foundation.framework */; };
 		6067ED30172C7CA10049E84C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6067ED2F172C7CA10049E84C /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		600EB311172C831F00A57904 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		6067ED28172C7CA10049E84C /* OurFirstGitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurFirstGitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6067ED2B172C7CA10049E84C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6067ED2D172C7CA10049E84C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +96,7 @@
 		6067ED32172C7CA10049E84C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				600EB311172C831F00A57904 /* README.md */,
 				6067ED3A172C7CA20049E84C /* MainAppDelegate.h */,
 				6067ED3B172C7CA20049E84C /* MainAppDelegate.m */,
 				6067ED33172C7CA10049E84C /* OurFirstGitApp-Info.plist */,
@@ -164,6 +167,7 @@
 				6067ED40172C7CA20049E84C /* Default@2x.png in Resources */,
 				6067ED42172C7CA20049E84C /* Default-568h@2x.png in Resources */,
 				6067ED45172C7CA20049E84C /* MainStoryboard.storyboard in Resources */,
+				600EB312172C831F00A57904 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				6067ED4D172C7CA20049E84C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
