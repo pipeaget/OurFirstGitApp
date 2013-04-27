@@ -83,8 +83,6 @@
 		6067ED31172C7CA10049E84C /* OurFirstGitApp */ = {
 			isa = PBXGroup;
 			children = (
-				6067ED3A172C7CA20049E84C /* MainAppDelegate.h */,
-				6067ED3B172C7CA20049E84C /* MainAppDelegate.m */,
 				6067ED43172C7CA20049E84C /* MainStoryboard.storyboard */,
 				6067ED46172C7CA20049E84C /* MainViewController.h */,
 				6067ED47172C7CA20049E84C /* MainViewController.m */,
@@ -96,6 +94,8 @@
 		6067ED32172C7CA10049E84C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6067ED3A172C7CA20049E84C /* MainAppDelegate.h */,
+				6067ED3B172C7CA20049E84C /* MainAppDelegate.m */,
 				6067ED33172C7CA10049E84C /* OurFirstGitApp-Info.plist */,
 				6067ED34172C7CA10049E84C /* InfoPlist.strings */,
 				6067ED37172C7CA10049E84C /* main.m */,
