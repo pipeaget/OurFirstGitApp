@@ -10,6 +10,10 @@
 
 @interface MainViewController ()
 
+@property (weak, nonatomic) IBOutlet UIScrollView *imageScrollView;
+
+@property (strong, nonatomic) UIImage *image;
+
 @end
 
 @implementation MainViewController
@@ -17,13 +21,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.image = [UIImage imageNamed:@"tron-car.jpg"];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:self.image];
+    
+    self.imageScrollView.contentSize = self.image.size;
+    [self.imageScrollView addSubview:imageView];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

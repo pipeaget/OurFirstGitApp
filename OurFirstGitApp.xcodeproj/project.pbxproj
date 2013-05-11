@@ -19,6 +19,17 @@
 		6067ED42172C7CA20049E84C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6067ED41172C7CA20049E84C /* Default-568h@2x.png */; };
 		6067ED45172C7CA20049E84C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6067ED43172C7CA20049E84C /* MainStoryboard.storyboard */; };
 		6067ED48172C7CA20049E84C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6067ED47172C7CA20049E84C /* MainViewController.m */; };
+		60C12C59173EDC0700EB3016 /* tron-car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C12C58173EDC0700EB3016 /* tron-car.jpg */; };
+		60C12C5C173EDEF700EB3016 /* Deimos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C12C5A173EDEF700EB3016 /* Deimos.jpg */; };
+		60C12C5D173EDEF700EB3016 /* Kratos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C12C5B173EDEF700EB3016 /* Kratos.jpg */; };
+		60C12C60173EDF8500EB3016 /* FlipCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C12C5F173EDF8500EB3016 /* FlipCardViewController.m */; };
+		60C12C65173EE93300EB3016 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C12C61173EE93300EB3016 /* 1.jpg */; };
+		60C12C66173EE93300EB3016 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C12C62173EE93300EB3016 /* 2.jpg */; };
+		60C12C67173EE93300EB3016 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C12C63173EE93300EB3016 /* 3.jpg */; };
+		60C12C68173EE93300EB3016 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C12C64173EE93300EB3016 /* 4.jpg */; };
+		60C12C70173EE93E00EB3016 /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C12C6B173EE93E00EB3016 /* myCell.m */; };
+		60C12C71173EE93E00EB3016 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C12C6D173EE93E00EB3016 /* Persona.m */; };
+		60C12C72173EE93E00EB3016 /* vcTabla.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C12C6F173EE93E00EB3016 /* vcTabla.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +50,21 @@
 		6067ED44172C7CA20049E84C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6067ED46172C7CA20049E84C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		6067ED47172C7CA20049E84C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		60C12C58173EDC0700EB3016 /* tron-car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tron-car.jpg"; sourceTree = "<group>"; };
+		60C12C5A173EDEF700EB3016 /* Deimos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Deimos.jpg; sourceTree = "<group>"; };
+		60C12C5B173EDEF700EB3016 /* Kratos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kratos.jpg; sourceTree = "<group>"; };
+		60C12C5E173EDF8500EB3016 /* FlipCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipCardViewController.h; sourceTree = "<group>"; };
+		60C12C5F173EDF8500EB3016 /* FlipCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipCardViewController.m; sourceTree = "<group>"; };
+		60C12C61173EE93300EB3016 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		60C12C62173EE93300EB3016 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		60C12C63173EE93300EB3016 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		60C12C64173EE93300EB3016 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		60C12C6A173EE93E00EB3016 /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		60C12C6B173EE93E00EB3016 /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
+		60C12C6C173EE93E00EB3016 /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		60C12C6D173EE93E00EB3016 /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
+		60C12C6E173EE93E00EB3016 /* vcTabla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vcTabla.h; sourceTree = "<group>"; };
+		60C12C6F173EE93E00EB3016 /* vcTabla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vcTabla.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +111,13 @@
 		6067ED31172C7CA10049E84C /* OurFirstGitApp */ = {
 			isa = PBXGroup;
 			children = (
+				60C12C69173EE93E00EB3016 /* TableViewController */,
 				6067ED43172C7CA20049E84C /* MainStoryboard.storyboard */,
 				6067ED46172C7CA20049E84C /* MainViewController.h */,
 				6067ED47172C7CA20049E84C /* MainViewController.m */,
 				6067ED32172C7CA10049E84C /* Supporting Files */,
+				60C12C5E173EDF8500EB3016 /* FlipCardViewController.h */,
+				60C12C5F173EDF8500EB3016 /* FlipCardViewController.m */,
 			);
 			path = OurFirstGitApp;
 			sourceTree = "<group>";
@@ -96,6 +125,7 @@
 		6067ED32172C7CA10049E84C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60C12C57173EDBCB00EB3016 /* Images */,
 				600EB311172C831F00A57904 /* README.md */,
 				6067ED3A172C7CA20049E84C /* MainAppDelegate.h */,
 				6067ED3B172C7CA20049E84C /* MainAppDelegate.m */,
@@ -108,6 +138,33 @@
 				6067ED41172C7CA20049E84C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60C12C57173EDBCB00EB3016 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				60C12C61173EE93300EB3016 /* 1.jpg */,
+				60C12C62173EE93300EB3016 /* 2.jpg */,
+				60C12C63173EE93300EB3016 /* 3.jpg */,
+				60C12C64173EE93300EB3016 /* 4.jpg */,
+				60C12C5A173EDEF700EB3016 /* Deimos.jpg */,
+				60C12C5B173EDEF700EB3016 /* Kratos.jpg */,
+				60C12C58173EDC0700EB3016 /* tron-car.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		60C12C69173EE93E00EB3016 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60C12C6A173EE93E00EB3016 /* myCell.h */,
+				60C12C6B173EE93E00EB3016 /* myCell.m */,
+				60C12C6C173EE93E00EB3016 /* Persona.h */,
+				60C12C6D173EE93E00EB3016 /* Persona.m */,
+				60C12C6E173EE93E00EB3016 /* vcTabla.h */,
+				60C12C6F173EE93E00EB3016 /* vcTabla.m */,
+			);
+			path = TableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +225,13 @@
 				6067ED42172C7CA20049E84C /* Default-568h@2x.png in Resources */,
 				6067ED45172C7CA20049E84C /* MainStoryboard.storyboard in Resources */,
 				600EB312172C831F00A57904 /* README.md in Resources */,
+				60C12C59173EDC0700EB3016 /* tron-car.jpg in Resources */,
+				60C12C5C173EDEF700EB3016 /* Deimos.jpg in Resources */,
+				60C12C5D173EDEF700EB3016 /* Kratos.jpg in Resources */,
+				60C12C65173EE93300EB3016 /* 1.jpg in Resources */,
+				60C12C66173EE93300EB3016 /* 2.jpg in Resources */,
+				60C12C67173EE93300EB3016 /* 3.jpg in Resources */,
+				60C12C68173EE93300EB3016 /* 4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +245,10 @@
 				6067ED38172C7CA10049E84C /* main.m in Sources */,
 				6067ED3C172C7CA20049E84C /* MainAppDelegate.m in Sources */,
 				6067ED48172C7CA20049E84C /* MainViewController.m in Sources */,
+				60C12C60173EDF8500EB3016 /* FlipCardViewController.m in Sources */,
+				60C12C70173EE93E00EB3016 /* myCell.m in Sources */,
+				60C12C71173EE93E00EB3016 /* Persona.m in Sources */,
+				60C12C72173EE93E00EB3016 /* vcTabla.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
