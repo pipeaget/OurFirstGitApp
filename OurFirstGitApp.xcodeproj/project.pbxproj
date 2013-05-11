@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24B29818172C8A70000E604D /* vcTabla.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B29816172C8A70000E604D /* vcTabla.m */; };
+		24B2981C172C8B5A000E604D /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2981B172C8B5A000E604D /* myCell.m */; };
+		24B2981F172C9207000E604D /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2981E172C9207000E604D /* Persona.m */; };
+		24E9CC28173ED66F00A7A02C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E9CC24173ED66F00A7A02C /* 1.jpg */; };
+		24E9CC29173ED66F00A7A02C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E9CC25173ED66F00A7A02C /* 2.jpg */; };
+		24E9CC2A173ED66F00A7A02C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E9CC26173ED66F00A7A02C /* 3.jpg */; };
+		24E9CC2D173ED8A000A7A02C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E9CC2C173ED8A000A7A02C /* 4.jpg */; };
 		600EB312172C831F00A57904 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 600EB311172C831F00A57904 /* README.md */; };
 		6067ED2C172C7CA10049E84C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6067ED2B172C7CA10049E84C /* UIKit.framework */; };
 		6067ED2E172C7CA10049E84C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6067ED2D172C7CA10049E84C /* Foundation.framework */; };
@@ -22,6 +29,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24B29815172C8A70000E604D /* vcTabla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vcTabla.h; path = TableViewController/vcTabla.h; sourceTree = "<group>"; };
+		24B29816172C8A70000E604D /* vcTabla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = vcTabla.m; path = TableViewController/vcTabla.m; sourceTree = "<group>"; };
+		24B2981A172C8B5A000E604D /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myCell.h; path = TableViewController/myCell.h; sourceTree = "<group>"; };
+		24B2981B172C8B5A000E604D /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myCell.m; path = TableViewController/myCell.m; sourceTree = "<group>"; };
+		24B2981D172C9207000E604D /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Persona.h; path = TableViewController/Persona.h; sourceTree = "<group>"; };
+		24B2981E172C9207000E604D /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Persona.m; path = TableViewController/Persona.m; sourceTree = "<group>"; };
+		24E9CC24173ED66F00A7A02C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		24E9CC25173ED66F00A7A02C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		24E9CC26173ED66F00A7A02C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		24E9CC2C173ED8A000A7A02C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		600EB311172C831F00A57904 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		6067ED28172C7CA10049E84C /* OurFirstGitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurFirstGitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6067ED2B172C7CA10049E84C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,6 +72,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B29814172C89F3000E604D /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24E9CC23173ED66300A7A02C /* Images Table */,
+				24B29815172C8A70000E604D /* vcTabla.h */,
+				24B29816172C8A70000E604D /* vcTabla.m */,
+				24B2981A172C8B5A000E604D /* myCell.h */,
+				24B2981B172C8B5A000E604D /* myCell.m */,
+				24B2981D172C9207000E604D /* Persona.h */,
+				24B2981E172C9207000E604D /* Persona.m */,
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
+		24E9CC23173ED66300A7A02C /* Images Table */ = {
+			isa = PBXGroup;
+			children = (
+				24E9CC2C173ED8A000A7A02C /* 4.jpg */,
+				24E9CC24173ED66F00A7A02C /* 1.jpg */,
+				24E9CC25173ED66F00A7A02C /* 2.jpg */,
+				24E9CC26173ED66F00A7A02C /* 3.jpg */,
+			);
+			name = "Images Table";
+			sourceTree = "<group>";
+		};
 		6067ED1F172C7CA10049E84C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,7 @@
 		6067ED31172C7CA10049E84C /* OurFirstGitApp */ = {
 			isa = PBXGroup;
 			children = (
+				24B29814172C89F3000E604D /* TableViewController */,
 				6067ED43172C7CA20049E84C /* MainStoryboard.storyboard */,
 				6067ED46172C7CA20049E84C /* MainViewController.h */,
 				6067ED47172C7CA20049E84C /* MainViewController.m */,
@@ -168,6 +211,10 @@
 				6067ED42172C7CA20049E84C /* Default-568h@2x.png in Resources */,
 				6067ED45172C7CA20049E84C /* MainStoryboard.storyboard in Resources */,
 				600EB312172C831F00A57904 /* README.md in Resources */,
+				24E9CC28173ED66F00A7A02C /* 1.jpg in Resources */,
+				24E9CC29173ED66F00A7A02C /* 2.jpg in Resources */,
+				24E9CC2A173ED66F00A7A02C /* 3.jpg in Resources */,
+				24E9CC2D173ED8A000A7A02C /* 4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +228,9 @@
 				6067ED38172C7CA10049E84C /* main.m in Sources */,
 				6067ED3C172C7CA20049E84C /* MainAppDelegate.m in Sources */,
 				6067ED48172C7CA20049E84C /* MainViewController.m in Sources */,
+				24B29818172C8A70000E604D /* vcTabla.m in Sources */,
+				24B2981C172C8B5A000E604D /* myCell.m in Sources */,
+				24B2981F172C9207000E604D /* Persona.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
