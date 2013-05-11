@@ -1,3 +1,7 @@
 .DS_Store
+<<<<<<< HEAD
 OurFirstGitApp.xcodeproj
+=======
+OutFistGitApp.xcodeproj
+>>>>>>> 09c3fa47cb0983f96e1833ef38c368879e4c0f20
 *.swp
